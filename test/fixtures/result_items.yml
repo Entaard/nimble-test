@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  search_metadata: 
+  live_html: MyText
+  cached_html: MyText
+
+two:
+  search_metadata: 
+  live_html: MyText
+  cached_html: MyText

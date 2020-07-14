@@ -1,0 +1,22 @@
+version: '2'
+options:
+  compose-file-path: 'docker-compose.yml'
+  compose-dev-file-path: 'docker-compose.dev.yml'
+syncs:
+  nimble-test-sync:
+    src: '.'
+    sync_excludes: [
+      '.git',
+      'vagrant',
+      'public/uploads',
+      'tmp',
+      'tags',
+      'docker*',
+      'Dockerfile',
+      '.DS_Store',
+      'log',
+      '.*.swo',
+      '.*.swp'
+    ]
+
+    sync_host_ip: '127.0.0.1'

@@ -1,0 +1,4 @@
+ARG BRANCH_TAG=latest
+FROM nimblehq/nimble_test:${BRANCH_TAG}
+
+CMD ./bin/sidekiq.sh

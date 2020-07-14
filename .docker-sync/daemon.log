@@ -1,0 +1,38 @@
+          ok  Starting native_osx for sync nimble-test-sync
+          ok  nimble-test-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: nimble-test-sync
+[2020-07-14 19:18:48 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:18:48.25 on 14 Jul 2020
+[2020-07-14 19:18:48 +0700] Sync Log:  [BGN] Copying .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-14 19:18:48 +0700] Sync Log:  [END] Copying .docker-sync/daemon.log
+[2020-07-14 19:18:48 +0700] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-14 19:18:48 +0700] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-07-14 19:18:48 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:18:48.26 on 14 Jul 2020
+[2020-07-14 19:18:48 +0700] Sync Log:  Synchronization complete at 19:18:48  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-14 19:18:50 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:18:49.48 on 14 Jul 2020
+[2020-07-14 19:18:50 +0700] Sync Log:  [BGN] Deleting node_modules/.yarn-integrity from /host_sync
+[2020-07-14 19:18:50 +0700] Sync Log:  [END] Deleting node_modules/.yarn-integrity
+[2020-07-14 19:18:50 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:18:49.49 on 14 Jul 2020
+[2020-07-14 19:18:50 +0700] Sync Log:  Synchronization complete at 19:18:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:19:01 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:19:01.35 on 14 Jul 2020
+[2020-07-14 19:19:01 +0700] Sync Log:  [BGN] Copying node_modules/.yarn-integrity from /app_sync to /host_sync
+[2020-07-14 19:19:01 +0700] Sync Log:  [END] Copying node_modules/.yarn-integrity
+[2020-07-14 19:19:01 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:19:01.37 on 14 Jul 2020
+[2020-07-14 19:19:01 +0700] Sync Log:  Synchronization complete at 19:19:01  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:23:50 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:23:50.36 on 14 Jul 2020
+[2020-07-14 19:23:50 +0700] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2020-07-14 19:23:50 +0700] Sync Log:  [END] Updating file .idea/workspace.xml
+[2020-07-14 19:23:50 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:23:50.36 on 14 Jul 2020
+[2020-07-14 19:23:50 +0700] Sync Log:  Synchronization complete at 19:23:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:28:42 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:28:41.48 on 14 Jul 2020
+[2020-07-14 19:28:42 +0700] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2020-07-14 19:28:42 +0700] Sync Log:  [END] Updating file .idea/workspace.xml
+[2020-07-14 19:28:42 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:28:41.48 on 14 Jul 2020
+[2020-07-14 19:28:42 +0700] Sync Log:  Synchronization complete at 19:28:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:49:33 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:49:32.19 on 14 Jul 2020
+[2020-07-14 19:49:33 +0700] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2020-07-14 19:49:33 +0700] Sync Log:  [END] Updating file .idea/workspace.xml
+[2020-07-14 19:49:33 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:49:32.20 on 14 Jul 2020
+[2020-07-14 19:49:33 +0700] Sync Log:  Synchronization complete at 19:49:32  (1 item transferred, 0 skipped, 0 failed)

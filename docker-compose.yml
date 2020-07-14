@@ -1,0 +1,48 @@
+version: "3.7"
+
+x-webapp: &webapp
+  image: crawler-base
+  environment:
+    DB_NAME: "nimble_test"
+    DB_HOST: nimble_test_db
+    DB_PORT: "5432"
+    DB_USERNAME: "postgres"
+    REDIS: nimble_test_redis:6379
+#    DATABASE_URL: postgres://postgres@db/nimble_test_production
+#    POSTGRES_DB: nimble_test_development
+  stdin_open: true
+  tty: true
+  depends_on:
+    - db
+    - redis
+
+services:
+  db:
+    image: postgres:12.1
+    container_name: nimble_test_db
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:5.0.7
+    container_name: nimble_test_redis
+    ports:
+      - "6379:6379"
+
+  web:
+    container_name: nimble_test_web
+#    command: bin/start.sh
+    command: sleep infinity
+    ports:
+      - "${PORT}:${PORT}"
+    volumes:
+      - "ruby-bundle:/bundle"
+    <<: *webapp
+
+  crawler:
+    container_name: web-crawler
+    command: sleep infinity
+    <<: *webapp
+
+volumes:
+  ruby-bundle:

@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  web:
+    volumes:
+      - nimble-test-sync:/nimble_test:nocopy
+
+  crawler:
+    volumes:
+      - nimble-test-sync:/nimble_test:nocopy
+
+volumes:
+  nimble-test-sync:
+    external: true

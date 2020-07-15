@@ -17,6 +17,7 @@ gem 'watir'
 gem 'watir-rails'
 gem 'jquery-rails'
 gem 'bcrypt'
+gem 'redis-mutex'
 
 # Authentications & Authorizations
 gem 'devise' # Authentication solution for Rails with Warden

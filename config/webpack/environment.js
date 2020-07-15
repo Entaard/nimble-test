@@ -5,6 +5,8 @@ const plugins = [
   new webpack.ProvidePlugin({
     // Translations
     I18n: 'i18n-js',
+    $: 'jquery/src/jquery',
+    jQuery: 'jquery/src/jquery'
   })
 ];
 

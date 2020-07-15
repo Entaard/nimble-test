@@ -15,6 +15,7 @@ gem 'bootsnap', require: false # Reduces boot times through caching; required in
 gem 'i18n-js', '3.5.1' # A library to provide the I18n translations on the Javascript
 gem 'watir'
 gem 'watir-rails'
+gem 'jquery-rails'
 
 # Authentications & Authorizations
 gem 'devise' # Authentication solution for Rails with Warden

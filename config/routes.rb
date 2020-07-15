@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
-  get 'welcome/index'
+  root 'home#index'
+  get 'home/index'
+  post 'home/upload'
 end

@@ -437,6 +437,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  bcrypt
   better_errors
   binding_of_caller
   bootsnap

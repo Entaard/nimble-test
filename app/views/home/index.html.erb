@@ -1,4 +1,8 @@
-<h1>Welcome to Rails</h1>
+<h1>Scrawler Practice</h1>
+
+<% if logged_in? %>
+  <h1>You are Logged In, <%= current_user.username %></h1>
+<%end%>
 
 <form class="form-inline" id="csvForm">
   <div class="form-group">

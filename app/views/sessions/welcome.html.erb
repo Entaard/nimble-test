@@ -1,4 +1,14 @@
-<h1>Welcome</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 offset-md-3" style="margin-top: 200px">
+      <h1 class="text-center">Welcome to Search Scraper Test</h1>
+      <br />
+      <div class="col-md-4 offset-md-4">
+        <%= button_to "Login", '/login', method: :get, class: 'btn btn-primary btn-block' %>
+        <br />
+        <%= button_to "Sign Up", '/users/new', method: :get, class: 'btn btn-primary btn-block' %>
+      </div>
+    </div>
+  </div>
+</div>
 
-<%= button_to "Login", '/login', method: :get %>
-<%= button_to "Sign Up", '/users/new', method: :get %>

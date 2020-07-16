@@ -1,9 +1,17 @@
-<h1>Sign up</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 offset-md-3" style="margin-top: 200px">
+      <h1 class="text-center">Sign up</h1>
 
-<%= form_for @user do |f| %>
-  <%= f.label :username %><br>
-  <%= f.text_field :username %><br>
-  <%= f.label :password %><br>
-  <%= f.password_field :password %><br>
-  <%= f.submit %>
-<%end%>
+      <%= form_for @user do |f| %>
+        <div class="form-group">
+          <%= f.label :username %><br>
+          <%= f.text_field :username, class: 'form-control' %><br>
+          <%= f.label :password %><br>
+          <%= f.password_field :password, class: 'form-control' %><br>
+          <%= f.submit nil, class: 'btn btn-primary' %>
+        </div>
+      <%end%>
+    </div>
+  </div>
+</div>

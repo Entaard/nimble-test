@@ -10,9 +10,11 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.1.1",
+    "bootstrap": "4.5.0",
     "i18n-js": "3.5.1",
     "jquery": "3.5.1",
-    "papaparse": "5.2.0"
+    "papaparse": "5.2.0",
+    "popper.js": "1.16.1"
   },
   "devDependencies": {
     "@nimblehq/eslint-config-nimble": "2.1.1",

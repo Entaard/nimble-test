@@ -15,6 +15,9 @@ import 'screens/';
 require('jquery');
 require('papaparse');
 
+import 'bootstrap';
+import '../../assets/stylesheets/application.scss';
+
 require('custom/csv-parser');
 
 // Uncomment to copy all static images under ../images to the output folder and reference

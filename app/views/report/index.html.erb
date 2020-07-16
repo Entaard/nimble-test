@@ -1,0 +1,33 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 offset-md-3" style="margin-top: 100px">
+      <%= link_to "Home", home_index_path %>
+
+      <h1 class="text-center">Listing Search metadata by keywords</h1>
+
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">Keyword</th>
+          <th scope="col">Number of ads</th>
+          <th scope="col">Number of links</th>
+          <th scope="col">Number of all results</th>
+          <th scope="col">Searched time</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <% @search_metadata.each do |info| %>
+          <tr>
+            <td><%= CGI.unescape(info.keyword) %></td>
+            <td><%= info.num_of_ads %></td>
+            <td><%= info.num_of_links %></td>
+            <td><%= info.num_of_all_results %></td>
+            <td><%= info.search_time %></td>
+          </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
